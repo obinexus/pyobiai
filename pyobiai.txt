@@ -1,0 +1,234 @@
+.
+├── CONTRIBUTING.md
+├── docs
+│   ├── 04_technical_research_portfolio.pdf
+│   ├── 09_filter_flash_narrative_design.md
+│   ├── 09_filter_flash_narrative_design.pdf
+│   ├── archieved
+│   │   ├── OBIAI.md
+│   │   └── Technical Research & Development Portfolio.md
+│   ├── archived
+│   │   ├── 04_technical_research_portfolio_duplicate.pdf
+│   │   └── www_backup
+│   │       └── backup_index.html
+│   ├── development-guidelines
+│   │   ├── development_conditional_policies.md
+│   │   └── system_integration_specifications.md
+│   ├── images
+│   │   ├── methodology
+│   │   │   ├── obiai.gif
+│   │   │   ├── planning_image.png
+│   │   │   ├── snippet.jpeg
+│   │   │   └── waterfall_methodology_roadmap.svg
+│   │   └── metrics
+│   │       └── bias_reduction_performance_metrics.png
+│   ├── obiai_experimental_roadmap.md
+│   ├── project_narrative.md
+│   ├── spec
+│   │   ├── Why Everyone Else Is Wrong_ The OBINexus Technical Manifesto.md
+│   │   └── Why Everyone Else Is Wrong_ The OBINexus Technical Manifesto.pdf
+│   └── technical_research_portfolio.md
+├── experimental
+│   ├── v2.1.x
+│   │   ├── config
+│   │   │   └── default.yaml
+│   │   ├── data
+│   │   │   ├── real
+│   │   │   └── synthetic
+│   │   ├── examples
+│   │   │   ├── cancer_detection.py
+│   │   │   └── clinical_trail.py
+│   │   ├── notebooks
+│   │   │   ├── 01_data_exploration.ipynb
+│   │   │   ├── 02_causal_modeling.ipynb
+│   │   │   ├── 03_parameter_estimation.ipynb
+│   │   │   └── 04_full_pipeline_demo.ipynb
+│   │   ├── README.md
+│   │   ├── requirements.txt
+│   │   ├── setup.py
+│   │   └── src
+│   │       ├── baysian_debiasing.py
+│   │       ├── bias_identification.py
+│   │       ├── causal_graph.py
+│   │       ├── fair_inference.py
+│   │       ├── __init__.py
+│   │       ├── metrics.py
+│   │       ├── parameter_estimation.py
+│   │       └── utils.py
+│   ├── v2.2.x
+│   │   └── docs
+│   │       └── 08_uncertainty_expression_framework.md
+│   └── v2.3.x
+│       └── docs
+│           └── 06_consciousness_model_specification.pdf
+├── index.html
+├── legacy
+│   └── v0.1.x
+│       └── docs
+│           └── 02_foundational_architecture_design.pdf
+├── LICENSE
+├── MIGRATION_REPORT.md
+├── obiai-proof
+│   ├── 04_technical_research_portfolio_duplicate.pdf
+│   ├── 04_technical_research_portfolio.pdf
+│   ├── 09_filter_flash_narrative_design.md
+│   ├── 09_filter_flash_narrative_design.pdf
+│   ├── backup_20250614_172755
+│   │   ├── 04_technical_research_portfolio_duplicate.pdf
+│   │   ├── 04_technical_research_portfolio.pdf
+│   │   ├── 09_filter_flash_narrative_design.md
+│   │   ├── 09_filter_flash_narrative_design.pdf
+│   │   ├── Formal Verification of Traversal Cost Function for Epistemological DAG Inference.pdf
+│   │   ├── Isomorphic_Reduction__Not_a_Bug__But_a_Feature (2).pdf
+│   │   ├── Mitigating_Bias_in_Autonomous_Robotics__System (2).pdf
+│   │   ├── Mitigating_Bias_in_MachineLearnign_Models.pdf
+│   │   ├── OBIAI (3).pdf
+│   │   ├── obiai_experimental_roadmap.md
+│   │   ├── OBIAI.pdf
+│   │   ├── project_narrative.md
+│   │   ├── technical_research_portfolio.md
+│   │   └── Unbiased_AI (5).pdf
+│   ├── Formal Verification of Traversal Cost Function for Epistemological DAG Inference.pdf
+│   ├── Isomorphic_Reduction__Not_a_Bug__But_a_Feature (2).pdf
+│   ├── Mitigating_Bias_in_Autonomous_Robotics__System (2).pdf
+│   ├── Mitigating_Bias_in_MachineLearnign_Models.pdf
+│   ├── OBIAI (3).pdf
+│   ├── obiai_experimental_roadmap.md
+│   ├── OBIAI.pdf
+│   ├── project_narrative.md
+│   ├── rename_log_20250614_172747.txt
+│   ├── rename_log_20250614_172755.txt
+│   ├── technical_research_portfolio.md
+│   └── Unbiased_AI (5).pdf
+├── poc
+│   ├── bayesian_debiasing
+│   │   ├── config
+│   │   │   └── default.yaml
+│   │   ├── data
+│   │   │   ├── real
+│   │   │   └── synthetic
+│   │   ├── examples
+│   │   │   ├── cancer_detection.py
+│   │   │   └── clinical_trail.py
+│   │   ├── notebooks
+│   │   │   ├── 01_data_exploration.ipynb
+│   │   │   ├── 02_causal_modeling.ipynb
+│   │   │   ├── 03_parameter_estimation.ipynb
+│   │   │   └── 04_full_pipeline_demo.ipynb
+│   │   ├── README.md
+│   │   ├── requirements.txt
+│   │   ├── setup.py
+│   │   └── src
+│   │       ├── baysian_debiasing.py
+│   │       ├── bias_identification.py
+│   │       ├── causal_graph.py
+│   │       ├── fair_inference.py
+│   │       ├── __init__.py
+│   │       ├── metrics.py
+│   │       ├── parameter_estimation.py
+│   │       └── utils.py
+│   └── shared
+│       └── resource-allocation.js
+├── pyobiai.txt
+├── pyproject.toml
+├── README.md
+├── README.pdf
+├── requirements-dev.txt
+├── requirements.txt
+├── shared
+│   └── resource-allocation.js
+├── src
+│   ├── obiai
+│   │   ├── bayesian
+│   │   ├── obiai
+│   │   │   ├── cli
+│   │   │   │   ├── commands
+│   │   │   │   │   ├── epistemological_dag.py
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── monitor_state.py
+│   │   │   │   │   ├── query_pattern.py
+│   │   │   │   │   └── simulate_barrier.py
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── ioc_config.py
+│   │   │   │   └── main.py
+│   │   │   ├── core
+│   │   │   │   ├── epistemological_dag
+│   │   │   │   │   ├── epistemological_dag_config.py
+│   │   │   │   │   ├── epistemological_dag.py
+│   │   │   │   │   └── __init__.py
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── pattern_generator
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── pattern_generator_config.py
+│   │   │   │   │   └── pattern_generator.py
+│   │   │   │   ├── protective_barrier
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── protective_barrier_config.py
+│   │   │   │   │   └── protective_barrier.py
+│   │   │   │   └── state_monitor
+│   │   │   │       ├── __init__.py
+│   │   │   │       ├── state_monitor_config.py
+│   │   │   │       └── state_monitor.py
+│   │   │   └── __init__.py
+│   │   ├── README.md
+│   │   ├── requirements.txt
+│   │   ├── setup.py
+│   │   └── tests
+│   │       ├── __init__.py
+│   │       └── unit
+│   │           ├── epistemological_dag
+│   │           │   └── test_epistemological_dag.py
+│   │           ├── pattern_generator
+│   │           │   └── test_pattern_generator.py
+│   │           ├── protective_barrier
+│   │           │   └── test_protective_barrier.py
+│   │           └── state_monitor
+│   │               └── test_state_monitor.py
+│   └── stuff.txt
+├── stable
+│   ├── v1.1.x
+│   │   └── docs
+│   │       ├── 01_bias_mitigation_bayesian_framework.pdf
+│   │       ├── 05_formal_bias_proof_framework.pdf
+│   │       ├── aegis_proof_1_1_cost_function_monotonicity.pdf
+│   │       └── aegis_proof_1_1_monotonicity_working_draft.md
+│   ├── v1.2.x
+│   │   ├── config
+│   │   │   └── default.yaml
+│   │   ├── data
+│   │   │   ├── real
+│   │   │   └── synthetic
+│   │   ├── docs
+│   │   │   ├── 03_core_infrastructure_specification.pdf
+│   │   │   ├── aegis_proof_1_2_traversal_cost_verification.pdf
+│   │   │   └── aegis_proof_1_2_traversal_working_draft.md
+│   │   ├── examples
+│   │   │   ├── cancer_detection.py
+│   │   │   └── clinical_trail.py
+│   │   ├── notebooks
+│   │   │   ├── 01_data_exploration.ipynb
+│   │   │   ├── 02_causal_modeling.ipynb
+│   │   │   ├── 03_parameter_estimation.ipynb
+│   │   │   └── 04_full_pipeline_demo.ipynb
+│   │   ├── README.md
+│   │   ├── requirements.txt
+│   │   ├── setup.py
+│   │   └── src
+│   │       ├── baysian_debiasing.py
+│   │       ├── bias_identification.py
+│   │       ├── causal_graph.py
+│   │       ├── fair_inference.py
+│   │       ├── __init__.py
+│   │       ├── metrics.py
+│   │       ├── parameter_estimation.py
+│   │       └── utils.py
+│   └── v1.3.x
+│       └── docs
+│           └── 07_system_architecture_v2.pdf
+├── tools
+│   └── documentation
+│       └── create_slide.py
+├── Why Everyone Else Is Wrong_ The OBINexus Technical Manifesto.md
+└── Why Everyone Else Is Wrong_ The OBINexus Technical Manifesto.pdf
+
+72 directories, 160 files
