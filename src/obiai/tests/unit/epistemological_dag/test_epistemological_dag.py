@@ -8,6 +8,7 @@ AEGIS_COMPLIANCE: Mathematical verification required
 import unittest
 from obiai.core.epistemological_dag.epistemological_dag import Epistemological_dag
 from obiai.core.epistemological_dag.epistemological_dag_config import get_config, get_zero_trust_config
+from obiai.core.verb_noun_capsule import VerbNounCapsule
 
 class TestEpistemological_dag(unittest.TestCase):
     """Unit tests for Epistemological_dag component"""
@@ -32,11 +33,11 @@ class TestEpistemological_dag(unittest.TestCase):
     def test_processing(self):
         """Test basic processing functionality"""
         component = Epistemological_dag(self.default_config)
-        result = component.process({'test': 'data'})
-        
-        self.assertIn('status', result)
-        self.assertEqual(result['status'], 'processed')
-        self.assertTrue(result['data_processed'])
+        capsule = component.process({'verb': 'run', 'noun': 'analysis', 'context': {'level': 1}})
+
+        self.assertIsInstance(capsule, VerbNounCapsule)
+        self.assertEqual(capsule.action, 'run')
+        self.assertEqual(capsule.object, 'analysis')
 
 if __name__ == '__main__':
     unittest.main()
