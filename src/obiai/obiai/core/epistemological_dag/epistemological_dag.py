@@ -6,6 +6,7 @@ Core feature logic following Aegis mathematical foundations
 import time
 from typing import Dict, Any, Optional
 from .epistemological_dag_config import get_config
+from ..verb_noun_capsule import VerbNounCapsule
 
 class Epistemological_dag:
     """
@@ -34,17 +35,21 @@ class Epistemological_dag:
             if key not in self.config:
                 raise ValueError(f"Missing required config key: {key}")
     
-    def process(self, data: Any) -> Dict[str, Any]:
-        """Primary processing method - implement feature-specific logic"""
+    def process(self, data: Any) -> Any:
+        """Create a verb-noun capsule from provided data."""
         if not self.initialized:
             raise RuntimeError(f"{self.__class__.__name__} not properly initialized")
-        
-        # Placeholder implementation
+
+        if isinstance(data, dict) and "verb" in data and "noun" in data:
+            context = data.get("context", {})
+            return VerbNounCapsule(data["verb"], data["noun"], context)
+
+        # Fallback to previous behaviour
         return {
             "status": "processed",
             "feature": self.config["feature_name"],
             "timestamp": time.time(),
-            "data_processed": True
+            "data_processed": True,
         }
     
     def validate_integrity(self) -> bool:
