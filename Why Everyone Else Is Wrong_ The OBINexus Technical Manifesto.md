@@ -78,6 +78,9 @@ Flash Function → Triggers insight bursts when patterns converge
 Meta-awareness → Modulates inference based on subjective context
 ```
 
+For planned work on indexing these flash events, see
+[Flash Layer Indexing (Part Two)](docs/flash_layer_indexing_part_two.md).
+
 This isn't philosophical speculation—it's a production-ready framework that models how consciousness emerges from information integration, with measurable improvements in contextual reasoning.
 
 ---

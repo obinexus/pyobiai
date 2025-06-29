@@ -144,6 +144,9 @@ OBIAI Framework Structure:
            pass
    ```
 
+Further indexing for these events will be detailed in
+[Flash Layer Indexing (Part Two)](flash_layer_indexing_part_two.md).
+
 ### **Security Integration: Cryptographic Profile Schema**
 
 #### **Milestone 1.7.1: Caller ID Protection System** ⏳ **Priority: LOW**
