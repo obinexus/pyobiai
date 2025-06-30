@@ -67,11 +67,31 @@ cryptography >= 3.4.0
 ```
 
 ### Installation
+Clone the repository and install the package in editable mode so the `obiai`
+command becomes available. Install optional development requirements if you plan
+to run the test suite or contribute to the project.
+
 ```bash
 git clone https://github.com/obinexus/obiai.git
 cd obiai/python/pyobiai
+
+# Install runtime dependencies
 pip install -r requirements.txt
-python setup.py install
+
+# Install additional tooling for development (optional)
+pip install -r requirements-dev.txt
+
+# Install PyOBIAI in editable mode
+pip install -e .
+```
+
+### Running the CLI
+After installation you can invoke the command line interface. The `--help`
+option shows the available subcommands.
+
+```bash
+obiai --help
+obiai simulate_barrier --cycles 50
 ```
 
 ### Basic Usage - Bayesian Debiasing
